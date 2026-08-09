@@ -1,0 +1,4 @@
+- nRF Connect, Recognises XIAO-C3-BLE Name, BLE Controller has it as MPY EPS32 which is not defined
+- No Write/Send Commands
+- Figure out how to read signal for esp
+- Configure device control
