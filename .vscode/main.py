@@ -175,8 +175,6 @@ def message_received(msg):
 			motor2.speed(speed_value)
 		except ValueError:
 			print("Invalid speed value received.")
-	else:
-		print("Unknown command")
 
 def advertise():
 	adv_data = bytearray(b'\x02\x01\x06') + bytearray((len(NAME) + 1, 0x09)) + NAME
